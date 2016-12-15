@@ -14,7 +14,7 @@ The live site: https://analytics.usa.gov
 
 - Commented out usa.gov-specific Google Analytics code in [_includes/head.html](_includes/head.html)
 - Added [_frozen.yml](_frozen.yml) configuration
-- Removed agency-page output from [_config.yml](_config.yml) configuration (in lieu of faking data for these fake agencies)
+- Disabled agency output (via `collections:`) from [_config.yml](_config.yml) configuration (in lieu of faking data for these fake agencies)
 
 ## Deployment instructions
 
@@ -28,6 +28,7 @@ Build:
 
 ~~~sh
 bundle exec jekyll build --config=_config.yml,_frozen.yml
+git checkout gh-pages
 cp -r _site/. .
 git add .
 git commit -m 'ok'
