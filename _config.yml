@@ -28,9 +28,9 @@ defaults:
       layout: default
 
 collections:
-  agencies:
-    output: true
-    permalink: :path/
+  # agencies:
+  #   output: true
+  #   permalink: :path/
   data_pages:
     output: true
     permalink: :path/data/
