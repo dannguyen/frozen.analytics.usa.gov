@@ -1,37 +1,41 @@
 {
-    "name": "windows",
-    "query": {
-        "start-date": "90daysAgo",
-        "end-date": "yesterday",
-        "dimensions": "ga:date,ga:operatingSystemVersion",
-        "metrics": [
-            "ga:sessions"
-        ],
-        "sort": [
-            "ga:date"
-        ],
-        "filters": "ga:operatingSystem==Windows;ga:sessions>1000",
-        "start-index": 1,
-        "max-results": 10000,
-        "samplingLevel": "HIGHER_PRECISION"
+  "name": "windows",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:operatingSystemVersion",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "filters": "ga:operatingSystem==Windows;ga:sessions>100",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Windows",
+    "description": "90 days of visits from Windows users, broken down by operating system version and date, for all sites."
+  },
+  "totals": {
+    "visits": 1091274393,
+    "os_version": {
+      "7": 592036154,
+      "8": 13977776,
+      "10": 367982074,
+      "98": 110,
+      "2000": 100279,
+      "(not set)": 120009,
+      "8.1": 80134725,
+      "NT": 136911,
+      "Server 2003": 527514,
+      "Vista": 14934050,
+      "XP": 21324791
     },
-    "meta": {
-        "name": "Windows",
-        "description": "90 days of visits from Windows users, broken down by operating system version and date, for all sites."
-    },
-    "totals": {
-        "visits": 865825156,
-        "os_version": {
-            "7": 563333614,
-            "8": 15081362,
-            "10": 97321779,
-            "XP": 34403449,
-            "Vista": 20193456,
-            "8.1": 134766052,
-            "Other": 725444
-        },
-        "start_date": "2015-09-07",
-        "end_date": "2015-12-05"
-    },
-    "taken_at": "2015-12-06T08:10:06.783Z"
+    "start_date": "2016-09-15",
+    "end_date": "2016-12-13"
+  },
+  "taken_at": "2016-12-14T23:41:12.665Z"
 }

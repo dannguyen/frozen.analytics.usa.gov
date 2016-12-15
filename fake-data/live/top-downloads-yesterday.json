@@ -10,7 +10,7 @@
     "sort": [
       "-ga:totalEvents"
     ],
-    "filters": "ga:eventCategory=~ownload",
+    "filters": "ga:eventCategory=~ownload;ga:pagePath!~(usps.com).*/(?i)(zip|doc).*",
     "start-index": 1,
     "max-results": 100,
     "samplingLevel": "HIGHER_PRECISION"
@@ -21,606 +21,606 @@
   },
   "data": [
     {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "26802"
-    },
-    {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "22759"
-    },
-    {
-      "page_title": "Internal Revenue Service",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
-      "page": "irs.gov/",
-      "total_events": "17359"
+      "page_title": "Employment Eligibility Verification | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-9.pdf",
+      "page": "uscis.gov/i-9",
+      "total_events": "26389"
     },
     {
       "page_title": "Application for Naturalization | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/n-400.pdf",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/n-400.pdf",
       "page": "uscis.gov/n-400",
-      "total_events": "11620"
+      "total_events": "13742"
     },
     {
-      "page_title": "Internal Revenue Service",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040ez.pdf",
-      "page": "irs.gov/",
-      "total_events": "8906"
+      "page_title": "Employment Eligibility Verification | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-9-paper-version.pdf",
+      "page": "uscis.gov/i-9",
+      "total_events": "13492"
     },
     {
-      "page_title": "Renew a Passport",
+      "page_title": "Passport Forms",
+      "event_label": "http://www.state.gov/documents/organization/212239.pdf",
+      "page": "travel.state.gov/content/passports/en/passports/forms.html",
+      "total_events": "9391"
+    },
+    {
+      "page_title": "Petition for Alien Relative | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-130.pdf",
+      "page": "uscis.gov/i-130",
+      "total_events": "8734"
+    },
+    {
+      "page_title": "Passport Forms",
       "event_label": "http://www.state.gov/documents/organization/212241.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/renew.html",
-      "total_events": "8227"
+      "page": "travel.state.gov/content/passports/en/passports/forms.html",
+      "total_events": "7575"
     },
     {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040ez.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "7803"
+      "page_title": "Application for Employment Authorization | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-765.pdf",
+      "page": "uscis.gov/i-765",
+      "total_events": "7388"
     },
     {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040sa.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "7718"
+      "page_title": "Affidavit of Support Under Section 213A of the INA | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-864.pdf",
+      "page": "uscis.gov/i-864",
+      "total_events": "6574"
     },
     {
       "page_title": "Form W-9, Request for Taxpayer Identification Number (TIN) and Certification",
       "event_label": "https://www.irs.gov/pub/irs-pdf/fw9.pdf",
       "page": "irs.gov/uac/about-form-w9",
-      "total_events": "7379"
-    },
-    {
-      "page_title": "Form 1040, U.S. Individual Income Tax Return",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
-      "page": "irs.gov/uac/about-form-1040",
-      "total_events": "6842"
-    },
-    {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040tt.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "6814"
-    },
-    {
-      "page_title": "Internal Revenue Service",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040tt.pdf",
-      "page": "irs.gov/",
-      "total_events": "6814"
-    },
-    {
-      "page_title": "Petition for Alien Relative | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-130.pdf",
-      "page": "uscis.gov/i-130",
-      "total_events": "6446"
-    },
-    {
-      "page_title": "Apply for Citizenship | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/USCIS/Resources/Citizenship%20",
-      "page": "uscis.gov/citizenship/learners/apply-citizenship",
-      "total_events": "6079"
-    },
-    {
-      "page_title": "Affidavit of Support Under Section 213A of the Act | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-864.pdf",
-      "page": "uscis.gov/i-864",
-      "total_events": "5881"
-    },
-    {
-      "page_title": "Application for Employment Authorization | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-765.pdf",
-      "page": "uscis.gov/i-765",
-      "total_events": "5824"
-    },
-    {
-      "page_title": "How to Apply for a Passport",
-      "event_label": "http://www.state.gov/documents/organization/212239.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/apply.html",
-      "total_events": "5739"
-    },
-    {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040ez.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "5570"
-    },
-    {
-      "page_title": "Get Transcript",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f4506.pdf",
-      "page": "irs.gov/individuals/get-transcript",
-      "total_events": "5089"
-    },
-    {
-      "page_title": "Photo Requirements",
-      "event_label": "http://travel.state.gov/content/dam/passports/FIG_cropper.swf",
-      "page": "travel.state.gov/content/visas/en/general/photos.html",
-      "total_events": "5089"
-    },
-    {
-      "page_title": "Form 1040EZ, Income Tax Return for Single and Joint Filers With No Dependents",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040ez.pdf",
-      "page": "irs.gov/uac/about-form-1040ez",
-      "total_events": "4948"
-    },
-    {
-      "page_title": "Application for Naturalization | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/n-400instr.pdf",
-      "page": "uscis.gov/n-400",
-      "total_events": "4439"
-    },
-    {
-      "page_title": "Fees",
-      "event_label": "http://www.state.gov/documents/organization/212239.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/information/fees.html",
-      "total_events": "4439"
-    },
-    {
-      "page_title": "General Schedule",
-      "event_label": "https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/salary-tables/16Tables/pdf/DCB.pdf",
-      "page": "opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule/",
-      "total_events": "4439"
-    },
-    {
-      "page_title": "Application for Naturalization | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/article/attachments.pdf",
-      "page": "uscis.gov/n-400",
-      "total_events": "4297"
-    },
-    {
-      "page_title": "Publication 17, Your Federal Income Tax",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/p17.pdf",
-      "page": "irs.gov/uac/about-publication-17",
-      "total_events": "4297"
-    },
-    {
-      "page_title": "Application to Replace Permanent Resident Card | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-90.pdf",
-      "page": "uscis.gov/i-90",
-      "total_events": "4213"
-    },
-    {
-      "page_title": "Forms",
-      "event_label": "http://www.state.gov/documents/organization/212239.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/forms.html",
-      "total_events": "4128"
-    },
-    {
-      "page_title": "Employment Eligibility Verification | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-9.pdf",
-      "page": "uscis.gov/i-9",
-      "total_events": "4071"
-    },
-    {
-      "page_title": "Internal Revenue Service",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/fw9.pdf",
-      "page": "irs.gov/",
-      "total_events": "4015"
-    },
-    {
-      "page_title": "Petition for Alien Relative | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-130instr.pdf",
-      "page": "uscis.gov/i-130",
-      "total_events": "4015"
-    },
-    {
-      "page_title": "Internal Revenue Service",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
-      "page": "irs.gov/",
-      "total_events": "3817"
-    },
-    {
-      "page_title": "Form 1040A, U.S. Individual Income Tax Return",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040a.pdf",
-      "page": "irs.gov/uac/about-form-1040a",
-      "total_events": "3760"
-    },
-    {
-      "page_title": "Immunization Schedules for Children in Easy-to-read Formats | CDC",
-      "event_label": "http://www.cdc.gov/vaccines/parents/downloads/parent-ver-sch-0-6yrs.pdf",
-      "page": "cdc.gov/vaccines/schedules/easy-to-read/child.html",
-      "total_events": "3704"
+      "total_events": "6417"
     },
     {
       "page_title": "New or Replacement Social Security Number and Card",
       "event_label": "https://www.ssa.gov/forms/ss-5.pdf",
       "page": "ssa.gov/ssnumber/",
-      "total_events": "3704"
+      "total_events": "6104"
+    },
+    {
+      "page_title": "Photo Requirements",
+      "event_label": "https://travel.state.gov/content/dam/passports/FIG_cropper.swf",
+      "page": "travel.state.gov/content/visas/en/general/photos.html",
+      "total_events": "6042"
+    },
+    {
+      "page_title": "Salaries & Wages",
+      "event_label": "https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/locality-payments-under-presidents-alternative-plan-january-2017.pdf",
+      "page": "opm.gov/policy-data-oversight/pay-leave/salaries-wages/",
+      "total_events": "6042"
+    },
+    {
+      "page_title": "General Schedule",
+      "event_label": "https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/salary-tables/16Tables/pdf/DCB.pdf",
+      "page": "opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule/",
+      "total_events": "5760"
     },
     {
       "page_title": "Application to Register Permanent Residence or Adjust Status | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-485.pdf",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-485.pdf",
       "page": "uscis.gov/i-485",
-      "total_events": "3591"
+      "total_events": "5509"
     },
     {
       "page_title": "Internal Revenue Service",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1099msc.pdf",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
       "page": "irs.gov/",
-      "total_events": "3591"
+      "total_events": "5259"
+    },
+    {
+      "page_title": "Application for Naturalization | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/n-400instr.pdf",
+      "page": "uscis.gov/n-400",
+      "total_events": "4915"
     },
     {
       "page_title": "General Schedule",
       "event_label": "https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/salary-tables/16Tables/pdf/RUS.pdf",
       "page": "opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule/",
-      "total_events": "3534"
+      "total_events": "4476"
     },
     {
-      "page_title": "Fees",
-      "event_label": "http://www.state.gov/documents/organization/212241.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/information/fees.html",
-      "total_events": "3506"
+      "page_title": "Letter Generator - Download VA Letters",
+      "event_label": "https://eauth.va.gov/wssweb/wss-common-webparts/mvc/renderLetter/Benefit_Verification_Letter_12132016.pdf",
+      "page": "eauth.va.gov/wssweb/wss-common-webparts/mvc/downloadletters",
+      "total_events": "4476"
     },
     {
-      "page_title": "Forms and Publications (PDF)",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf",
-      "page": "apps.irs.gov/app/picklist/list/formspublications.html?value=1040&criteria=formnumber&submitsearch=find",
-      "total_events": "3449"
+      "page_title": "Application for Naturalization | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/article/attachments.pdf",
+      "page": "uscis.gov/n-400",
+      "total_events": "4289"
     },
     {
-      "page_title": "Search Trademark Database | USPTO",
-      "event_label": "http://tmsearch.uspto.gov/bin/gate.exe",
-      "page": "uspto.gov/trademarks-application-process/search-trademark-database",
-      "total_events": "3449"
+      "page_title": "Petition for Alien Relative | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-130instr.pdf",
+      "page": "uscis.gov/i-130",
+      "total_events": "4226"
     },
     {
-      "page_title": "Forms and Publications (PDF)",
+      "page_title": "Internal Revenue Service",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/fw9.pdf",
+      "page": "irs.gov/",
+      "total_events": "4195"
+    },
+    {
+      "page_title": "Internal Revenue Service",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
+      "page": "irs.gov/",
+      "total_events": "4132"
+    },
+    {
+      "page_title": "Forms & Pubs",
       "event_label": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
-      "page": "apps.irs.gov/app/picklist/list/formspublications.html?value=1040&criteria=formnumber&submitsearch=find",
-      "total_events": "3393"
+      "page": "irs.gov/forms-pubs",
+      "total_events": "4101"
     },
     {
-      "page_title": "Form 4506-T, Request for Transcript of Tax Return",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f4506t.pdf",
-      "page": "irs.gov/uac/about-form-4506t",
-      "total_events": "3364"
+      "page_title": "Application for Travel Document | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-131.pdf",
+      "page": "uscis.gov/i-131",
+      "total_events": "3976"
+    },
+    {
+      "page_title": "Application to Replace Permanent Resident Card | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-90.pdf",
+      "page": "uscis.gov/i-90",
+      "total_events": "3976"
+    },
+    {
+      "page_title": "Application for Employment Authorization | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-765instr.pdf",
+      "page": "uscis.gov/i-765",
+      "total_events": "3944"
+    },
+    {
+      "page_title": "Apply for Citizenship | USCIS",
+      "event_label": "https://www.uscis.gov/sites/default/files/USCIS/Resources/Citizenship%20",
+      "page": "uscis.gov/citizenship/learners/apply-citizenship",
+      "total_events": "3788"
+    },
+    {
+      "page_title": "Forms & Pubs",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf",
+      "page": "irs.gov/forms-pubs",
+      "total_events": "3788"
+    },
+    {
+      "page_title": "Passport Fees",
+      "event_label": "http://travel.state.gov/content/dam/passports/FeeChart/Passport%20Fees%20Chart_TSG%20March2016.pdf",
+      "page": "travel.state.gov/content/passports/en/passports/information/fees.html",
+      "total_events": "3725"
+    },
+    {
+      "page_title": "Biographic Information | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/g-325a.pdf",
+      "page": "uscis.gov/g-325a",
+      "total_events": "3663"
     },
     {
       "page_title": "General Schedule",
       "event_label": "https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/salary-tables/16Tables/pdf/GS.pdf",
       "page": "opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule/",
-      "total_events": "3364"
+      "total_events": "3443"
     },
     {
-      "page_title": "Form 1095-B, Health Coverage",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1095b.pdf",
-      "page": "irs.gov/uac/about-form-1095-b",
-      "total_events": "3280"
+      "page_title": "Consideration of Deferred Action for Childhood Arrivals | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-821d.pdf",
+      "page": "uscis.gov/i-821d",
+      "total_events": "3412"
     },
     {
-      "page_title": "Form 1099-MISC, Miscellaneous Income",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1099msc.pdf",
-      "page": "irs.gov/uac/about-form-1099misc",
-      "total_events": "3280"
-    },
-    {
-      "page_title": "Public Service Loan Forgiveness | Federal Student Aid",
-      "event_label": "https://studentaid.ed.gov/sa/sites/default/files/public-service-employment-certification-form.pdf",
-      "page": "studentaid.ed.gov/sa/repay-loans/forgiveness-cancellation/public-service",
-      "total_events": "3280"
-    },
-    {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1099msc.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "3082"
-    },
-    {
-      "page_title": "Poverty Guidelines | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-864p.pdf",
-      "page": "uscis.gov/i-864p",
-      "total_events": "3082"
-    },
-    {
-      "page_title": "Astronomy Picture of the Day",
-      "event_label": "http://apod.nasa.gov/apod/image/1602/N1532_LRGB_50_finishCedic.jpg",
-      "page": "apod.nasa.gov/apod/astropix.html",
-      "total_events": "3053"
-    },
-    {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040sca.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "3025"
-    },
-    {
-      "page_title": "Forms",
-      "event_label": "http://www.state.gov/documents/organization/212241.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/forms.html",
-      "total_events": "2997"
-    },
-    {
-      "page_title": "Application for Employment Authorization | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-765instr.pdf",
-      "page": "uscis.gov/i-765",
-      "total_events": "2969"
-    },
-    {
-      "page_title": "Tax Topics - Topic 203 Refund Offsets for Unpaid Child Support, Certain Federal and State Debts, and Unemployment Compensation Debts",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f8379.pdf",
-      "page": "irs.gov/taxtopics/tc203.html",
-      "total_events": "2969"
-    },
-    {
-      "page_title": "Application for Travel Document | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-131.pdf",
-      "page": "uscis.gov/i-131",
-      "total_events": "2940"
-    },
-    {
-      "page_title": "Loan and Grant Fact Sheets | Federal Student Aid",
-      "event_label": "https://studentaid.ed.gov/sa/sites/default/files/federal-grant-programs.pdf",
-      "page": "studentaid.ed.gov/sa/resources/loan-grant-fact-sheets",
-      "total_events": "2827"
-    },
-    {
-      "page_title": "Form 1040, U.S. Individual Income Tax Return",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040gi.pdf",
-      "page": "irs.gov/uac/about-form-1040",
-      "total_events": "2799"
-    },
-    {
-      "page_title": "Trademarks | USPTO",
+      "page_title": "Search trademark database | USPTO",
       "event_label": "http://tmsearch.uspto.gov/bin/gate.exe",
-      "page": "uspto.gov/trademark",
-      "total_events": "2686"
+      "page": "uspto.gov/trademarks-application-process/search-trademark-database",
+      "total_events": "3381"
     },
     {
-      "page_title": "Publication 501, Exemptions, Standard Deduction, and Filing Information",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/p501.pdf",
-      "page": "irs.gov/uac/about-publication-501",
-      "total_events": "2545"
+      "page_title": "Application to Register Permanent Residence or Adjust Status | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-485instr.pdf",
+      "page": "uscis.gov/i-485",
+      "total_events": "3349"
     },
     {
-      "page_title": "Form 1040X, Amended U.S. Individual Income Tax Return",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040x.pdf",
-      "page": "irs.gov/uac/about-form-1040x",
-      "total_events": "2516"
+      "page_title": "Medicare Benefits",
+      "event_label": "https://www.ssa.gov/pubs/EN-05-10530.pdf",
+      "page": "ssa.gov/medicare/",
+      "total_events": "3224"
     },
     {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/fw2.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "2460"
+      "page_title": "Employment Eligibility Verification | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-9instr.pdf",
+      "page": "uscis.gov/i-9",
+      "total_events": "3193"
     },
     {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/fw9.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "2431"
+      "page_title": "Form W-4, Employee's Withholding Allowance Certificate",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
+      "page": "irs.gov/uac/about-form-w4",
+      "total_events": "3068"
     },
     {
-      "page_title": "Apply For Your VA Health Benefits or Update Your Information - Veterans Health Administration",
-      "event_label": "https://www.1010ez.med.va.gov/sec/vha/1010ez/Form/1010ez.pdf",
-      "page": "1010ez.med.va.gov/",
-      "total_events": "2403"
+      "page_title": "HHS Poverty Guidelines for Affidavit of Support | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-864p.pdf",
+      "page": "uscis.gov/i-864p",
+      "total_events": "2880"
     },
     {
-      "page_title": "Biographic Information | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/g-325a.pdf",
-      "page": "uscis.gov/g-325a",
-      "total_events": "2290"
-    },
-    {
-      "page_title": "Form 1098-T, Tuition Statement",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1098t.pdf",
-      "page": "irs.gov/uac/form-1098-t,-tuition-statement",
-      "total_events": "2205"
-    },
-    {
-      "page_title": "Free File: Do Your Federal Taxes for Free",
-      "event_label": "https://www.irs.gov/pub/irs-utl/How%20to%20Free%20File%20Infographic_508%20FINAL.pdf",
-      "page": "irs.gov/uac/free-file:-do-your-federal-taxes-for-free",
-      "total_events": "2205"
-    },
-    {
-      "page_title": "Selected Topic",
-      "event_label": "http://www.socialsecurity.gov/forms/ss-5.pdf",
-      "page": "faq.ssa.gov/ics/support/kbanswer.asp?questionid=3755",
-      "total_events": "2205"
-    },
-    {
-      "page_title": "Request for Fee Waiver | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-912.pdf",
-      "page": "uscis.gov/i-912",
-      "total_events": "2177"
-    },
-    {
-      "page_title": "First Time Applicants",
-      "event_label": "http://www.state.gov/documents/organization/212239.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/first-time.html",
-      "total_events": "2120"
-    },
-    {
-      "page_title": "Forms & Pubs",
-      "event_label": "https://www.irs.gov/pub/irs-prior/f1040--2014.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "2120"
-    },
-    {
-      "page_title": "Recordkeeping | Injury & Illness Recordkeeping Forms",
-      "event_label": "https://www.osha.gov/recordkeeping/RKform300pkg-fillable-enabled_FormOnly.pdf",
-      "page": "osha.gov/recordkeeping/rkforms.html",
-      "total_events": "2120"
-    },
-    {
-      "page_title": "Tax Topics - Topic 203 Refund Offsets for Unpaid Child Support, Certain Federal and State Debts, and Unemployment Compensation Debts",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i8379.pdf",
-      "page": "irs.gov/taxtopics/tc203.html",
-      "total_events": "2120"
-    },
-    {
-      "page_title": "Application to Replace Permanent Resident Card | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-90instr.pdf",
-      "page": "uscis.gov/i-90",
-      "total_events": "2092"
-    },
-    {
-      "page_title": "Loan and Grant Fact Sheets | Federal Student Aid",
-      "event_label": "https://studentaid.ed.gov/sa/sites/default/files/federal-loan-programs.pdf",
-      "page": "studentaid.ed.gov/sa/resources/loan-grant-fact-sheets",
-      "total_events": "2092"
-    },
-    {
-      "page_title": "Passports for Minors Under 16",
-      "event_label": "http://www.state.gov/documents/organization/212243.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/under-16.html",
-      "total_events": "2092"
-    },
-    {
-      "page_title": "Application for Naturalization | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/PDFs/G-1151.pdf",
-      "page": "uscis.gov/n-400",
-      "total_events": "2064"
-    },
-    {
-      "page_title": "Form 1095-C, Employer-Provided Health Insurance Offer and Coverage Insurance",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1095c.pdf",
-      "page": "irs.gov/uac/about-form-1095-c",
-      "total_events": "2036"
-    },
-    {
-      "page_title": "Affidavit of Support Under Section 213A of the Act | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-864instr.pdf",
-      "page": "uscis.gov/i-864",
-      "total_events": "2007"
-    },
-    {
-      "page_title": "Form 1095-A, Health Insurance Marketplace Statement",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1095a.pdf",
-      "page": "irs.gov/uac/about-form-1095-a",
-      "total_events": "2007"
-    },
-    {
-      "page_title": "Schedule C (Form 1040), Profit or Loss From Business",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040sc.pdf",
-      "page": "irs.gov/uac/schedule-c-(form-1040),-profit-or-loss-from-business",
-      "total_events": "2007"
-    },
-    {
-      "page_title": "Budget for 2017 | USDA",
-      "event_label": "http://www.obpa.usda.gov/budsum/fy17budsum.pdf",
-      "page": "usda.gov/wps/portal/usda/usdahome?navid=budget",
-      "total_events": "1979"
-    },
-    {
-      "page_title": "Form 1040EZ, Income Tax Return for Single and Joint Filers With No Dependents",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040ez.pdf",
-      "page": "irs.gov/uac/about-form-1040ez",
-      "total_events": "1979"
-    },
-    {
-      "page_title": "General Instructions for Certain Information Returns",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1099gi.pdf",
-      "page": "irs.gov/uac/about-form-1099",
-      "total_events": "1979"
-    },
-    {
-      "page_title": "Form 1095-B, Health Coverage",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i109495b.pdf",
-      "page": "irs.gov/uac/about-form-1095-b",
-      "total_events": "1923"
-    },
-    {
-      "page_title": "Military Personnel Records, SF-180",
-      "event_label": "http://www.archives.gov/research/order/standard-form-180.pdf",
-      "page": "archives.gov/veterans/military-service-records/standard-form-180.html",
-      "total_events": "1923"
-    },
-    {
-      "page_title": "New or Replacement Social Security Number and Card",
-      "event_label": "https://www.socialsecurity.gov/forms/ss-5.pdf",
-      "page": "socialsecurity.gov/ssnumber/",
-      "total_events": "1923"
+      "page_title": "Form 4506-T, Request for Transcript of Tax Return",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f4506t.pdf",
+      "page": "irs.gov/uac/about-form-4506t",
+      "total_events": "2849"
     },
     {
       "page_title": "Individual - Savings Bond Calculator",
       "event_label": "https://www.treasurydirect.gov/indiv/tools/tools_savingsbondcalc.htm",
       "page": "treasurydirect.gov/indiv/tools/tools_savingsbondcalc.htm",
-      "total_events": "1894"
-    },
-    {
-      "page_title": "Passports for Minors Under 16",
-      "event_label": "http://www.state.gov/documents/organization/212239.pdf",
-      "page": "travel.state.gov/content/passports/en/passports/under-16.html",
-      "total_events": "1894"
+      "total_events": "2849"
     },
     {
       "page_title": "Forms & Pubs",
       "event_label": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
-      "page": "irs.gov/forms-&-pubs",
-      "total_events": "1866"
+      "page": "irs.gov/forms-pubs",
+      "total_events": "2786"
     },
     {
-      "page_title": "Form 1040X, Amended U.S. Individual Income Tax Return",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040x.pdf",
-      "page": "irs.gov/uac/about-form-1040x",
-      "total_events": "1838"
+      "page_title": "Public Service Loan Forgiveness | Federal Student Aid",
+      "event_label": "https://studentaid.ed.gov/sa/sites/default/files/public-service-employment-certification-form.pdf",
+      "page": "studentaid.ed.gov/sa/repay-loans/forgiveness-cancellation/public-service",
+      "total_events": "2786"
     },
     {
-      "page_title": "How do I change or correct my name on my Social Security number card?",
-      "event_label": "http://www.socialsecurity.gov/forms/ss-5.pdf",
-      "page": "faq.ssa.gov/link/portal/34011/34019/article/3749/how-do-i-change-or-correct-my-name-on-my-social-security-number-card",
-      "total_events": "1838"
+      "page_title": "Trademarks | USPTO",
+      "event_label": "http://tmsearch.uspto.gov/bin/gate.exe",
+      "page": "uspto.gov/trademark",
+      "total_events": "2629"
+    },
+    {
+      "page_title": "Application for Naturalization | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/PDFs/G-1151.pdf",
+      "page": "uscis.gov/n-400",
+      "total_events": "2536"
+    },
+    {
+      "page_title": "Application to Replace Permanent Resident Card | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-90instr.pdf",
+      "page": "uscis.gov/i-90",
+      "total_events": "2285"
+    },
+    {
+      "page_title": "Medicare Benefits",
+      "event_label": "https://www.ssa.gov/pubs/EN-05-10531.pdf",
+      "page": "ssa.gov/medicare/",
+      "total_events": "2254"
+    },
+    {
+      "page_title": "Application for Travel Document | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-131instr.pdf",
+      "page": "uscis.gov/i-131",
+      "total_events": "2223"
+    },
+    {
+      "page_title": "Index of Applicable Federal Rates (AFR) Rulings",
+      "event_label": "https://www.irs.gov/pub/irs-drop/rr-16-27.pdf",
+      "page": "apps.irs.gov/app/picklist/list/federalrates.html",
+      "total_events": "2223"
+    },
+    {
+      "page_title": "Internal Revenue Service",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/i1040tt.pdf",
+      "page": "irs.gov/",
+      "total_events": "2223"
+    },
+    {
+      "page_title": "Form 1099-MISC, Miscellaneous Income",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f1099msc.pdf",
+      "page": "irs.gov/uac/about-form-1099misc",
+      "total_events": "2129"
+    },
+    {
+      "page_title": "Payment Plans, Installment Agreements",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f9465.pdf",
+      "page": "irs.gov/individuals/payment-plans-installment-agreements",
+      "total_events": "2129"
+    },
+    {
+      "page_title": "Renew by Mail",
+      "event_label": "http://www.state.gov/documents/organization/212241.pdf",
+      "page": "travel.state.gov/content/passports/en/passports/renew.html",
+      "total_events": "2129"
+    },
+    {
+      "page_title": "Form 1040, U.S. Individual Income Tax Return",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040.pdf",
+      "page": "irs.gov/uac/about-form-1040",
+      "total_events": "2097"
+    },
+    {
+      "page_title": "Required Minimum Distribution Worksheets",
+      "event_label": "https://www.irs.gov/pub/irs-tege/uniform_rmd_wksht.pdf",
+      "page": "irs.gov/retirement-plans/plan-participant-employee/required-minimum-distribution-worksheets",
+      "total_events": "2097"
+    },
+    {
+      "page_title": "Mercury Dime 2016 Centennial Gold Coin - US Mint",
+      "event_label": "https://catalog.usmint.gov/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw3afc11d6/images/hi-res/coins/Gold-Coins/16xb_c.jpg",
+      "page": "catalog.usmint.gov/mercury-dime-2016-centennial-gold-coin-16xb.html?cm_mmc=exacttarget-_-campaign-_-remindmelater mercury dime relaunch-_-body - product description",
+      "total_events": "2035"
+    },
+    {
+      "page_title": "Mercury Dime 2016 Centennial Gold Coin - US Mint",
+      "event_label": "https://catalog.usmint.gov/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw9a7ad00b/images/hi-res/coins/Gold-Coins/16xb_b.jpg",
+      "page": "catalog.usmint.gov/mercury-dime-2016-centennial-gold-coin-16xb.html?cm_mmc=exacttarget-_-campaign-_-remindmelater mercury dime relaunch-_-body - product description",
+      "total_events": "2035"
+    },
+    {
+      "page_title": "Application for Naturalization | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/g-1145.pdf",
+      "page": "uscis.gov/n-400",
+      "total_events": "1910"
+    },
+    {
+      "page_title": "Internal Revenue Service",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f1099msc.pdf",
+      "page": "irs.gov/",
+      "total_events": "1847"
+    },
+    {
+      "page_title": "Astronomy Picture of the Day",
+      "event_label": "http://apod.nasa.gov/apod/image/1612/Perseids4GirlMt_Wu_5555.jpg",
+      "page": "apod.nasa.gov/apod/astropix.html",
+      "total_events": "1816"
+    },
+    {
+      "page_title": "Affidavit of Support Under Section 213A of the INA | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-864instr.pdf",
+      "page": "uscis.gov/i-864",
+      "total_events": "1784"
+    },
+    {
+      "page_title": "Application for Employment Authorization | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-765ws.pdf",
+      "page": "uscis.gov/i-765",
+      "total_events": "1722"
+    },
+    {
+      "page_title": "Internal Revenue Service",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040ez.pdf",
+      "page": "irs.gov/",
+      "total_events": "1722"
+    },
+    {
+      "page_title": "Forms & Pubs",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/fw9.pdf",
+      "page": "irs.gov/forms-pubs",
+      "total_events": "1659"
+    },
+    {
+      "page_title": "Publication 17, Your Federal Income Tax",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/p17.pdf",
+      "page": "irs.gov/uac/about-publication-17",
+      "total_events": "1659"
+    },
+    {
+      "page_title": "E-Notification of Application/Petition Acceptance | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/g-1145.pdf",
+      "page": "uscis.gov/g-1145",
+      "total_events": "1628"
+    },
+    {
+      "page_title": "Report of Medical Examination and Vaccination Record | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-693.pdf",
+      "page": "uscis.gov/i-693",
+      "total_events": "1628"
+    },
+    {
+      "page_title": "Petition for Alien Relative | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/g-1145.pdf",
+      "page": "uscis.gov/i-130",
+      "total_events": "1596"
+    },
+    {
+      "page_title": "Premiums",
+      "event_label": "https://www.opm.gov/healthcare-insurance/healthcare/plan-information/premiums/2017/nonpostal-hmo.pdf",
+      "page": "opm.gov/healthcare-insurance/healthcare/plan-information/premiums/",
+      "total_events": "1596"
+    },
+    {
+      "page_title": "Internal Revenue Service",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/p15.pdf",
+      "page": "irs.gov/",
+      "total_events": "1503"
+    },
+    {
+      "page_title": "Social Security Publications",
+      "event_label": "https://www.ssa.gov/pubs/EN-05-10031-2016.pdf",
+      "page": "ssa.gov/pubs/calendar.htm",
+      "total_events": "1471"
+    },
+    {
+      "page_title": "Mercury Dime 2016 Centennial Gold Coin - US Mint",
+      "event_label": "https://catalog.usmint.gov/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw165bf858/images/hi-res/coins/Gold-Coins/16xb_d.jpg",
+      "page": "catalog.usmint.gov/mercury-dime-2016-centennial-gold-coin-16xb.html?cm_mmc=exacttarget-_-campaign-_-remindmelater mercury dime relaunch-_-body - product description",
+      "total_events": "1440"
+    },
+    {
+      "page_title": "Petition to Remove Conditions on Residence | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-751.pdf",
+      "page": "uscis.gov/i-751",
+      "total_events": "1409"
+    },
+    {
+      "page_title": "Vaccine Information Statement | Inactivated Influenza | VIS | CDC",
+      "event_label": "https://www.cdc.gov/vaccines/hcp/vis/vis-statements/flu.pdf",
+      "page": "cdc.gov/vaccines/hcp/vis/vis-statements/flu.html",
+      "total_events": "1409"
+    },
+    {
+      "page_title": "Dental & Vision",
+      "event_label": "https://www.opm.gov/healthcare-insurance/flyers/dental-insurance-overview.pdf",
+      "page": "opm.gov/healthcare-insurance/dental-vision/",
+      "total_events": "1377"
+    },
+    {
+      "page_title": "Form 8822, Change of Address",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f8822.pdf",
+      "page": "irs.gov/uac/form-8822-change-of-address",
+      "total_events": "1377"
+    },
+    {
+      "page_title": "Forms & Pubs",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f1099msc.pdf",
+      "page": "irs.gov/forms-pubs",
+      "total_events": "1377"
+    },
+    {
+      "page_title": "Consideration of Deferred Action for Childhood Arrivals | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-765ws.pdf",
+      "page": "uscis.gov/i-821d",
+      "total_events": "1346"
+    },
+    {
+      "page_title": "Form 4506, Request for Copy of Tax Return",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f4506.pdf",
+      "page": "irs.gov/uac/about-form-4506",
+      "total_events": "1346"
+    },
+    {
+      "page_title": "Loan and Grant Fact Sheets | Federal Student Aid",
+      "event_label": "https://studentaid.ed.gov/sa/sites/default/files/federal-grant-programs.pdf",
+      "page": "studentaid.ed.gov/sa/resources/loan-grant-fact-sheets",
+      "total_events": "1346"
+    },
+    {
+      "page_title": "Request for Fee Waiver | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-912.pdf",
+      "page": "uscis.gov/i-912",
+      "total_events": "1346"
+    },
+    {
+      "page_title": "Study Materials for the Civics Test | USCIS",
+      "event_label": "https://www.uscis.gov/sites/default/files/USCIS/Office%20of%20Citizenship/Citizenship%20Resource%20Center%20Site/Publications/100q.pdf",
+      "page": "uscis.gov/citizenship/learners/study-test/study-materials-civics-test",
+      "total_events": "1346"
+    },
+    {
+      "page_title": "Employment Tax Forms",
+      "event_label": "http://www.uscis.gov/files/form/i-9.pdf",
+      "page": "irs.gov/businesses/small-businesses-self-employed/employment-tax-forms",
+      "total_events": "1315"
+    },
+    {
+      "page_title": "Form W-7, Application for IRS Individual Taxpayer Identification Number",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/fw7.pdf",
+      "page": "irs.gov/uac/about-form-w7",
+      "total_events": "1315"
+    },
+    {
+      "page_title": "Getting or Renewing a U.S. Passport | USAGov",
+      "event_label": "http://www.state.gov/documents/organization/212241.pdf",
+      "page": "usa.gov/passport",
+      "total_events": "1315"
     },
     {
       "page_title": "How to Apply for a Passport",
-      "event_label": "http://www.state.gov/documents/organization/212241.pdf",
+      "event_label": "http://www.state.gov/documents/organization/212239.pdf",
       "page": "travel.state.gov/content/passports/en/passports/apply.html",
-      "total_events": "1809"
+      "total_events": "1315"
     },
     {
-      "page_title": "Schedule A (Form 1040), Itemized Deductions",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f1040sa.pdf",
-      "page": "irs.gov/uac/about-schedule-a-form-1040",
-      "total_events": "1809"
+      "page_title": "Immunization Schedules for Children in Easy-to-read Formats | CDC",
+      "event_label": "https://www.cdc.gov/vaccines/parents/downloads/parent-ver-sch-0-6yrs.pdf",
+      "page": "cdc.gov/vaccines/schedules/easy-to-read/child.html",
+      "total_events": "1315"
     },
     {
-      "page_title": "Birth-18 Years and Catchup Immunization Schedules for Providers | CDC",
-      "event_label": "http://www.cdc.gov/vaccines/schedules/downloads/child/0-18yrs-child-combined-schedule.pdf",
-      "page": "cdc.gov/vaccines/schedules/hcp/child-adolescent.html",
-      "total_events": "1781"
+      "page_title": "Mercury Dime 2016 Centennial Gold Coin - US Mint",
+      "event_label": "https://catalog.usmint.gov/on/demandware.static/-/Sites-usm-master-catalog-us/default/dw3ac48d2f/images/hi-res/coins/Gold-Coins/16xb_a.jpg",
+      "page": "catalog.usmint.gov/mercury-dime-2016-centennial-gold-coin-16xb.html?cm_mmc=exacttarget-_-campaign-_-remindmelater mercury dime relaunch-_-body - product description",
+      "total_events": "1315"
     },
     {
-      "page_title": "Application to Register Permanent Residence or Adjust Status | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-485instr.pdf",
-      "page": "uscis.gov/i-485",
-      "total_events": "1753"
+      "page_title": "Photo Requirements",
+      "event_label": "https://travel.state.gov/content/dam/passports/FIG_cropper.swf",
+      "page": "travel.state.gov/content/passports/en/passports/photos/photos.html",
+      "total_events": "1315"
     },
     {
-      "page_title": "Form 8962, Premium Tax Credit (PTC)",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/f8962.pdf",
-      "page": "irs.gov/uac/about-form-8962",
-      "total_events": "1753"
+      "page_title": "Plan Information",
+      "event_label": "https://www.opm.gov/healthcare-insurance/dental-vision/plan-information/premiums/2017dentalpremium.pdf",
+      "page": "opm.gov/healthcare-insurance/dental-vision/plan-information/",
+      "total_events": "1315"
     },
     {
-      "page_title": "Request For Social Security Statement (SSA-7004)",
-      "event_label": "https://www.socialsecurity.gov/myaccount/materials/pdfs/SSA-7004.pdf",
-      "page": "socialsecurity.gov/hlp/global/hlp-statement-7004-revi.htm",
-      "total_events": "1753"
+      "page_title": "Application for Certificate of Citizenship | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/n-600.pdf",
+      "page": "uscis.gov/n-600",
+      "total_events": "1283"
     },
     {
-      "page_title": "Benefits Planner: Withholding Income Tax From Your Social Security Benefits",
-      "event_label": "http://www.irs.gov/pub/irs-pdf/fw4v.pdf",
-      "page": "socialsecurity.gov/planners/taxwithold.html",
-      "total_events": "1696"
+      "page_title": "Form 2290, Heavy Highway Vehicle Use Tax Return",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/f2290.pdf",
+      "page": "irs.gov/uac/about-form-2290",
+      "total_events": "1283"
     },
     {
-      "page_title": "Form 1095-C, Employer-Provided Health Insurance Offer and Coverage Insurance",
-      "event_label": "https://www.irs.gov/pub/irs-pdf/i109495c.pdf",
-      "page": "irs.gov/uac/about-form-1095-c",
-      "total_events": "1696"
+      "page_title": "Notice of Entry of Appearance as Attorney or Accredited Representative | USCIS",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/g-28.pdf",
+      "page": "uscis.gov/g-28",
+      "total_events": "1283"
+    },
+    {
+      "page_title": "Vaccine Information Statement | HPV | VIS | CDC",
+      "event_label": "https://www.cdc.gov/vaccines/hcp/vis/vis-statements/hpv.pdf",
+      "page": "cdc.gov/vaccines/hcp/vis/vis-statements/hpv.html",
+      "total_events": "1283"
+    },
+    {
+      "page_title": "Disability Benefits",
+      "event_label": "https://www.ssa.gov/pubs/EN-05-10029.pdf",
+      "page": "ssa.gov/disabilityssi/",
+      "total_events": "1252"
+    },
+    {
+      "page_title": "Social Security Publications",
+      "event_label": "https://www.ssa.gov/pubs/EN-05-10031-2017.pdf",
+      "page": "ssa.gov/pubs/calendar.htm",
+      "total_events": "1252"
+    },
+    {
+      "page_title": "United States Patent and Trademark Office",
+      "event_label": "http://tmsearch.uspto.gov/bin/gate.exe",
+      "page": "uspto.gov/",
+      "total_events": "1252"
     },
     {
       "page_title": "Affidavit of Support | USCIS",
-      "event_label": "https://www.uscis.gov/sites/default/files/files/form/i-134.pdf",
+      "event_label": "https://www.uscis.gov/system/files_force/files/form/i-134.pdf",
       "page": "uscis.gov/i-134",
-      "total_events": "1668"
+      "total_events": "1221"
+    },
+    {
+      "page_title": "General Schedule",
+      "event_label": "https://www.opm.gov/policy-data-oversight/pay-leave/salaries-wages/salary-tables/16Tables/pdf/saltbl.pdf",
+      "page": "opm.gov/policy-data-oversight/pay-leave/salaries-wages/2016/general-schedule/",
+      "total_events": "1221"
+    },
+    {
+      "page_title": "Letter Generator - Download VA Letters",
+      "event_label": "https://eauth.va.gov/wssweb/wss-common-webparts/mvc/renderLetter/Civil_Service_Preference_Letter_12132016.pdf",
+      "page": "eauth.va.gov/wssweb/wss-common-webparts/mvc/downloadletters",
+      "total_events": "1221"
+    },
+    {
+      "page_title": "IRS Withholding Calculator",
+      "event_label": "https://www.irs.gov/pub/irs-pdf/fw4.pdf",
+      "page": "irs.gov/individuals/irs-withholding-calculator",
+      "total_events": "1190"
     }
   ],
   "totals": {},
-  "taken_at": "2016-02-11T18:26:20.001Z"
+  "taken_at": "2016-12-14T23:41:33.128Z"
 }

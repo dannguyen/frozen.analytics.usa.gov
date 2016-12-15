@@ -1,107 +1,212 @@
 {
-    "name": "top-domains-30-days",
-    "query": {
-        "start-date": "30daysAgo",
-        "end-date": "yesterday",
-        "dimensions": "ga:hostname",
-        "metrics": [
-            "ga:sessions"
-        ],
-        "sort": [
-            "-ga:sessions"
-        ],
-        "start-index": 1,
-        "max-results": 20,
-        "samplingLevel": "HIGHER_PRECISION"
-    },
-    "meta": {
-        "name": "Top Domains (30 Days)",
-        "description": "Last 30 days' top 20 domains, measured by visits, for all sites."
-    },
-    "data": [
-        {
-            "domain": "forecast.weather.gov",
-            "visits": "51709314"
-        },
-        {
-            "domain": "nlm.nih.gov",
-            "visits": "50851796"
-        },
-        {
-            "domain": "cdc.gov",
-            "visits": "23608396"
-        },
-        {
-            "domain": "irs.gov",
-            "visits": "19682967"
-        },
-        {
-            "domain": "weather.gov",
-            "visits": "14492067"
-        },
-        {
-            "domain": "usajobs.gov",
-            "visits": "13421658"
-        },
-        {
-            "domain": "travel.state.gov",
-            "visits": "10033366"
-        },
-        {
-            "domain": "nasa.gov",
-            "visits": "8897118"
-        },
-        {
-            "domain": "uscis.gov",
-            "visits": "8694551"
-        },
-        {
-            "domain": "nps.gov",
-            "visits": "8416951"
-        },
-        {
-            "domain": "ssa.gov",
-            "visits": "7077482"
-        },
-        {
-            "domain": "socialsecurity.gov",
-            "visits": "7049185"
-        },
-        {
-            "domain": "fda.gov",
-            "visits": "6764205"
-        },
-        {
-            "domain": "opm.gov",
-            "visits": "6125040"
-        },
-        {
-            "domain": "ceac.state.gov",
-            "visits": "5444007"
-        },
-        {
-            "domain": "bls.gov",
-            "visits": "5234116"
-        },
-        {
-            "domain": "whitehouse.gov",
-            "visits": "4980363"
-        },
-        {
-            "domain": "noaa.gov",
-            "visits": "4919869"
-        },
-        {
-            "domain": "earthquake.usgs.gov",
-            "visits": "4287814"
-        },
-        {
-            "domain": "egov.uscis.gov",
-            "visits": "4116727"
-        }
+  "name": "top-domains-30-days",
+  "query": {
+    "start-date": "30daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions",
+      "ga:pageviews",
+      "ga:users",
+      "ga:pageviewsPerSession",
+      "ga:avgSessionDuration",
+      "ga:exits"
     ],
-    "totals": {
-        "visits": 265806992
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Domains (30 Days)",
+    "description": "Last 30 days' top 20 domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "tools.usps.com",
+      "visits": "149645054",
+      "pageviews": "261304805",
+      "users": "52194863",
+      "pageviews_per_session": "1.7461639928306618",
+      "avg_session_duration": "119.33899310163636",
+      "exits": "151915669"
     },
-    "taken_at": "2015-12-06T08:10:09.347Z"
+    {
+      "domain": "forecast.weather.gov",
+      "visits": "48544452",
+      "pageviews": "77255007",
+      "users": "11271957",
+      "pageviews_per_session": "1.591428140954192",
+      "avg_session_duration": "96.2980514024548",
+      "exits": "50112026"
+    },
+    {
+      "domain": "medlineplus.gov",
+      "visits": "47981869",
+      "pageviews": "67332049",
+      "users": "33806107",
+      "pageviews_per_session": "1.4032810810266687",
+      "avg_session_duration": "97.56954261202289",
+      "exits": "47966095"
+    },
+    {
+      "domain": "usps.com",
+      "visits": "33181181",
+      "pageviews": "47229253",
+      "users": "16398306",
+      "pageviews_per_session": "1.423374683378509",
+      "avg_session_duration": "72.70119538542043",
+      "exits": "27476476"
+    },
+    {
+      "domain": "cdc.gov",
+      "visits": "24206128",
+      "pageviews": "49065725",
+      "users": "17491175",
+      "pageviews_per_session": "2.0269960152239137",
+      "avg_session_duration": "122.38877477637068",
+      "exits": "24447987"
+    },
+    {
+      "domain": "irs.gov",
+      "visits": "21572725",
+      "pageviews": "57212300",
+      "users": "11619723",
+      "pageviews_per_session": "2.6520664403778382",
+      "avg_session_duration": "146.84269381823574",
+      "exits": "21511134"
+    },
+    {
+      "domain": "usajobs.gov",
+      "visits": "20594024",
+      "pageviews": "88139390",
+      "users": "6050969",
+      "pageviews_per_session": "4.279852737862207",
+      "avg_session_duration": "248.144034550994",
+      "exits": "20575247"
+    },
+    {
+      "domain": "weather.gov",
+      "visits": "16767102",
+      "pageviews": "37389669",
+      "users": "5679919",
+      "pageviews_per_session": "2.2299422404658835",
+      "avg_session_duration": "116.48210477875068",
+      "exits": "15192769"
+    },
+    {
+      "domain": "ssa.gov",
+      "visits": "13496755",
+      "pageviews": "37603736",
+      "users": "8209668",
+      "pageviews_per_session": "2.7861316294175897",
+      "avg_session_duration": "199.0037265994678",
+      "exits": "13456946"
+    },
+    {
+      "domain": "uscis.gov",
+      "visits": "11796234",
+      "pageviews": "28264393",
+      "users": "5724234",
+      "pageviews_per_session": "2.396052248539661",
+      "avg_session_duration": "220.45705849850046",
+      "exits": "10213639"
+    },
+    {
+      "domain": "reg.usps.com",
+      "visits": "11600945",
+      "pageviews": "22316327",
+      "users": "4385751",
+      "pageviews_per_session": "1.9236645807733765",
+      "avg_session_duration": "74.22356687321593",
+      "exits": "11106712"
+    },
+    {
+      "domain": "travel.state.gov",
+      "visits": "10672569",
+      "pageviews": "26260423",
+      "users": "6775793",
+      "pageviews_per_session": "2.4605531245569834",
+      "avg_session_duration": "199.62854266859273",
+      "exits": "10722893"
+    },
+    {
+      "domain": "login.usajobs.gov",
+      "visits": "10054403",
+      "pageviews": "15999464",
+      "users": "2683728",
+      "pageviews_per_session": "1.5912893087734796",
+      "avg_session_duration": "80.81674575805246",
+      "exits": "9721659"
+    },
+    {
+      "domain": "nps.gov",
+      "visits": "9141049",
+      "pageviews": "29392566",
+      "users": "6280809",
+      "pageviews_per_session": "3.215447811296056",
+      "avg_session_duration": "210.19251904239874",
+      "exits": "9094480"
+    },
+    {
+      "domain": "nasa.gov",
+      "visits": "8655830",
+      "pageviews": "17228286",
+      "users": "6234240",
+      "pageviews_per_session": "1.9903678792212878",
+      "avg_session_duration": "142.42606162551715",
+      "exits": "8561940"
+    },
+    {
+      "domain": "ceac.state.gov",
+      "visits": "6895220",
+      "pageviews": "139606424",
+      "users": "2219540",
+      "pageviews_per_session": "20.246841145025105",
+      "avg_session_duration": "1086.6117774342226",
+      "exits": "6833629"
+    },
+    {
+      "domain": "whitehouse.gov",
+      "visits": "6512152",
+      "pageviews": "11890124",
+      "users": "5182682",
+      "pageviews_per_session": "1.8258363748266317",
+      "avg_session_duration": "96.88247279854647",
+      "exits": "6530179"
+    },
+    {
+      "domain": "cns.usps.com",
+      "visits": "6441548",
+      "pageviews": "18822148",
+      "users": "1703525",
+      "pageviews_per_session": "2.921991421937708",
+      "avg_session_duration": "202.1181093426611",
+      "exits": "6794571"
+    },
+    {
+      "domain": "fda.gov",
+      "visits": "6360427",
+      "pageviews": "13799454",
+      "users": "4644885",
+      "pageviews_per_session": "2.1695798096574332",
+      "avg_session_duration": "160.30220691158",
+      "exits": "6049467"
+    },
+    {
+      "domain": "store.usps.com",
+      "visits": "5447074",
+      "pageviews": "24975268",
+      "users": "3205000",
+      "pageviews_per_session": "4.585079622564335",
+      "avg_session_duration": "116.95876226392372",
+      "exits": "5354687"
+    }
+  ],
+  "totals": {
+    "visits": 469566741
+  },
+  "taken_at": "2016-12-14T23:41:21.938Z"
 }

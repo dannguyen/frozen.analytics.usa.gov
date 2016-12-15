@@ -1,107 +1,107 @@
 {
-    "name": "top-domains-7-days",
-    "query": {
-        "start-date": "7daysAgo",
-        "end-date": "yesterday",
-        "dimensions": "ga:hostname",
-        "metrics": [
-            "ga:sessions"
-        ],
-        "sort": [
-            "-ga:sessions"
-        ],
-        "start-index": 1,
-        "max-results": 20,
-        "samplingLevel": "HIGHER_PRECISION"
-    },
-    "meta": {
-        "name": "Top Domains (7 Days)",
-        "description": "Last week's top 20 domains, measured by visits, for all sites."
-    },
-    "data": [
-        {
-            "domain": "nlm.nih.gov",
-            "visits": "11478582"
-        },
-        {
-            "domain": "forecast.weather.gov",
-            "visits": "11428099"
-        },
-        {
-            "domain": "cdc.gov",
-            "visits": "5824660"
-        },
-        {
-            "domain": "irs.gov",
-            "visits": "5352924"
-        },
-        {
-            "domain": "usajobs.gov",
-            "visits": "3486713"
-        },
-        {
-            "domain": "weather.gov",
-            "visits": "3000447"
-        },
-        {
-            "domain": "nasa.gov",
-            "visits": "2270317"
-        },
-        {
-            "domain": "travel.state.gov",
-            "visits": "2255100"
-        },
-        {
-            "domain": "uscis.gov",
-            "visits": "2108909"
-        },
-        {
-            "domain": "fda.gov",
-            "visits": "1910092"
-        },
-        {
-            "domain": "ssa.gov",
-            "visits": "1898253"
-        },
-        {
-            "domain": "socialsecurity.gov",
-            "visits": "1884841"
-        },
-        {
-            "domain": "nps.gov",
-            "visits": "1853391"
-        },
-        {
-            "domain": "opm.gov",
-            "visits": "1720895"
-        },
-        {
-            "domain": "bls.gov",
-            "visits": "1411105"
-        },
-        {
-            "domain": "ceac.state.gov",
-            "visits": "1271309"
-        },
-        {
-            "domain": "whitehouse.gov",
-            "visits": "1180427"
-        },
-        {
-            "domain": "egov.uscis.gov",
-            "visits": "1042063"
-        },
-        {
-            "domain": "noaa.gov",
-            "visits": "1014130"
-        },
-        {
-            "domain": "earthquake.usgs.gov",
-            "visits": "892562"
-        }
+  "name": "top-domains-7-days",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname",
+    "metrics": [
+      "ga:sessions"
     ],
-    "totals": {
-        "visits": 63284819
+    "sort": [
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 20,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Domains (7 Days)",
+    "description": "Last week's top 20 domains, measured by visits, for all sites."
+  },
+  "data": [
+    {
+      "domain": "tools.usps.com",
+      "visits": "40810847"
     },
-    "taken_at": "2015-12-06T08:10:08.852Z"
+    {
+      "domain": "forecast.weather.gov",
+      "visits": "14698448"
+    },
+    {
+      "domain": "medlineplus.gov",
+      "visits": "10272355"
+    },
+    {
+      "domain": "usps.com",
+      "visits": "9285359"
+    },
+    {
+      "domain": "irs.gov",
+      "visits": "5523332"
+    },
+    {
+      "domain": "cdc.gov",
+      "visits": "5384934"
+    },
+    {
+      "domain": "weather.gov",
+      "visits": "5341981"
+    },
+    {
+      "domain": "usajobs.gov",
+      "visits": "5197642"
+    },
+    {
+      "domain": "ssa.gov",
+      "visits": "3254931"
+    },
+    {
+      "domain": "reg.usps.com",
+      "visits": "3239909"
+    },
+    {
+      "domain": "login.usajobs.gov",
+      "visits": "2700618"
+    },
+    {
+      "domain": "travel.state.gov",
+      "visits": "2669543"
+    },
+    {
+      "domain": "uscis.gov",
+      "visits": "2623680"
+    },
+    {
+      "domain": "nps.gov",
+      "visits": "2059159"
+    },
+    {
+      "domain": "nasa.gov",
+      "visits": "2027233"
+    },
+    {
+      "domain": "cns.usps.com",
+      "visits": "1761104"
+    },
+    {
+      "domain": "earthquake.usgs.gov",
+      "visits": "1741886"
+    },
+    {
+      "domain": "ceac.state.gov",
+      "visits": "1519502"
+    },
+    {
+      "domain": "store.usps.com",
+      "visits": "1479718"
+    },
+    {
+      "domain": "fda.gov",
+      "visits": "1411072"
+    }
+  ],
+  "totals": {
+    "visits": 123003253
+  },
+  "taken_at": "2016-12-14T23:41:20.617Z"
 }
