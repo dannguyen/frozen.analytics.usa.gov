@@ -29,7 +29,7 @@ defaults:
 
 collections:
   agencies:
-    output: false
+    output: true
     permalink: :path/
   data_pages:
     output: true

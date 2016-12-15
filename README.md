@@ -14,7 +14,7 @@ The live site: https://analytics.usa.gov
 
 - Commented out usa.gov-specific Google Analytics code in [_includes/head.html](_includes/head.html)
 - Added [_frozen.yml](_frozen.yml) configuration
-- Disabled agency output (via `collections:`) from [_config.yml](_config.yml) configuration (in lieu of faking data for these fake agencies)
+- Added fresh data, including for each agency, via [_fetch_fresh_data.sh](_fetch_fresh_data.sh) (agency pull not done yet)
 
 ## Deployment instructions
 
